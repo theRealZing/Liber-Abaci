@@ -1,20 +1,23 @@
 # Liber-Abaci
 An example web service that deals with Fibonacci sequence as a sample purpose.
+
+##purpose of this repository
+This repository is being created as a sample of my design thinking, orgainization, and some programming.  It isn't meant to break any new ground mathematically.  The main purpose is to create a simple API and flesh it out a bit, as if it were being done for commercial use - except the licensing of this exercise may not be appropriate for a commercial venture.
+
 ## history
 "Liber Abaci", or Book of Calculation was written in 1202 by Leonardo Pisano Bigollo, also known as Leonardo Bonacci or more popularly just Fibonacci.  This book is one way that the famous sequence was introduced to Europe. (reference: wikipedia "Fibonacci")
 <p>
 Note that the sequence as introduced only works on positive integers (including zero) and is usually thought of that way; but mathematically it can operate on negative numbers as well.  </p>
 <p>
 Another branch from the original is to specify any two starting integers and then following the same basic algorithm.  I probably won't venture there. </p>
-## purpose of this repository
-This repository is being created as a sample of my programming.  It isn't meant to break any new ground mathematically.  The main purpose is to create a simple API and flesh it out a bit, as if it were being done for commercial use - except the licensing of this exercise may not be appropriate for a commercial venture.
-## the stack
-<p>
+
+##the stack
 At the outset, the entire stack is flexible and subject to change.  Here are my initial thoughts:
 * python is a great choice to actually generate the Fibonacci sequence numbers since it has built-in support for very large integers.
 * I've been teaching myself express/node.js recently, and it seems like a natural choice for creating a simple API.
 * However, it would also be instructive to use python for the API, so  I'll probably do both at first to get a feel for which I like better for this case.
-</p>
+
+
 ## the API
 
 <p>My liber-abaci resource will use HTTP methods as follows:</p>
