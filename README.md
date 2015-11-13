@@ -47,7 +47,7 @@ Uses an approximation of the golden ratio to directly estimate any given number 
 <tr><td>GET</td><td>http://[hostname]/fibFloor/[method]/[n]</td><td>Retrieve the values of the Fibonacci sequence lower than n</td></tr>
 <tr><td>GET</td><td>http://[hostname]/fibCeiling/[method]/[n]</td><td>Retrieve the values of the Fibonacci sequence higher than n</td></tr>
 <tr><td>GET</td><td>http://[hostname]/userMethods/</td><td>List the Fibonacci libraries available for use.  Create your own Fibonacci routines and compare it with mine!</td></tr>
-<tr><td>GET</td><td>http://[hostname]/test/[method1,method2]/[n]</td><td>Compare two fibonacci methods for generating a sequence of n items on several tests, including performance runs</td></tr>
+<tr><td>GET</td><td>http://[hostname]/test/[method1,method2]/</td><td>Compare two fibonacci methods for generating a sequence of n items on several tests, including performance runs</td></tr>
 </table>
 
 ## installation
