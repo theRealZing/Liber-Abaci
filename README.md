@@ -52,3 +52,9 @@ Uses an approximation of the golden ratio to directly estimate any given number 
 
 ## installation
 See the separate install instructions and API examples
+
+## a word on testing
+1.  Unit tests were written for most of the classes
+2.  Most of the classes have a 'main' with examples of how to invoke the class and also represents a level of functional testing
+3.  The application API itself allows for user-driven functional testing of the Fibonacci libraries
+4.  Additional functional tests (for example, for regression testing) could be automated using either curl or something fancier like jsonium.  I didn't write any automation around other functional testing that I did.
