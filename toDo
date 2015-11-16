@@ -12,11 +12,8 @@ Please provide a sample project for review:
 While this project is admittedly trivial, approach it as representing a more complex problem that you'll have to put into production and maintain for 5 years.
 Providing a link to a github/bitbucket repo with the project would probably be the easiest way to submit.
 
-
+-------------------------------------------
 didn't implement:
 PUT request for update user library
 POST request for create user library
 DELETE request for delete user library
-
-add installation instructions for unix
-
